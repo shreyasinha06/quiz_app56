@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="410dp"
+        android:layout_height="34dp"
+
+        android:text="What is the capital of India" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:hint="" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+
+
+        android:text="Who is the President of India" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t2"
+        android:hint="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="408dp"
+        android:layout_height="37dp"
+        android:text="Who is the Prime Minister of India" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t3"
+        android:hint="" />
+
+
+    <Button
+        android:id="@+id/buttonAlert"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Submit" />
+
+
+
+
+</LinearLayout>
